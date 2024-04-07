@@ -15,8 +15,8 @@ function isPrime(number) {
     return true;
 }
 
-console.log(isPrime(7));
-console.log(isPrime(12));
+console.log(isPrime(7)); //true
+console.log(isPrime(12)); //false
 
 
 
@@ -39,11 +39,12 @@ function findLargestElement(arr) {
 }
 
 const array = [10, 5, 8, 20, 3];
-console.log(findLargestElement(array));
+console.log(findLargestElement(array)); // Output:20
 
 
 
 // 3.Write a function to find the second largest element in an array.
+
 
 
 function findSecondLargestElement(array) {
@@ -72,7 +73,6 @@ function findSecondLargestElement(array) {
 
 const array = [3, 7, 2, 9, 5];
 console.log(findSecondLargestElement(array)); // Output: 7
- 
 
 
 
@@ -100,7 +100,7 @@ function findNthFibonacci(n) {
 
 
 const n = 6;
-console.log(findNthFibonacci(n));
+console.log(findNthFibonacci(n)); // Output: 8
 
 
 
@@ -120,4 +120,4 @@ function calculateFactorial(n) {
 }
 
 const number = 5;
-console.log(calculateFactorial(number));
+console.log(calculateFactorial(number)); // Output: 120
